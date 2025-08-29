@@ -8,6 +8,9 @@ PASSO A PASSO
 
 3-INSTALAR SERVE E CONFIGURAR
     3.1-NPM I SERVE --SAVE
-    3.2-SERVE: SERVE .
+    3.2-serve: serve .
 
 4-CRIAR ESTRUTURA DE PASTAS DO PROJETO: JS, CSS, IMAGES, favicon.ico, index.html, manifest.json e sw.js
+
+5-EXECUÇÃO
+    5.1-npm run serve
