@@ -53,5 +53,10 @@ buscarLocalizacao.addEventListener('click', () => {
     let latitude = document.getElementById('latitudeInput').value;
     let longitude = document.getElementById('longitudeInput').value;
 
+    if (!latitude || !longitude) {
+        alert('Todos os campos são obrigatórios!');
+        return;
+    }
+
     document.getElementById('gmap_canvas').src = `https://maps.google.com/maps?q=${latitude},${longitude}&t=&z=13&ie=UTF8&iwloc=&output=embed`;
 });
